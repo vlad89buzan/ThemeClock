@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+@@include('html/head.html',{
+"title":"Theme__Clock"
+})
+
+<body>
+	<div class="wrapper">
+		<!-- @@include('html/header.html',{}) -->
+		<main>
+			<button class="toggle">Dark Mode</button>
+			<div class="container">
+				<div class="clock">
+					<div class="needle hour"></div>
+					<div class="needle minute"></div>
+					<div class="needle second"></div>
+					<div class="center"></div>
+				</div>
+				<div class="time"></div>
+				<div class="date"></div>
+			</div>
+		</main>
+		<!-- @@include('html/footer.html',{}) -->
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
